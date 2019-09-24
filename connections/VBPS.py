@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import SP16_13330_2017_Rev01 as sp
+import nbnorms.norms.SP16_13330_2017_Rev01 as sp
 
-import validation as valid
+import nbnorms.service.validation as valid
 
 import math
 def check(input, printIndex = 1) :
